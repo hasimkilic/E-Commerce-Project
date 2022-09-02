@@ -1,0 +1,17 @@
+@import './header/header.scss';
+@import './footer/footer.scss';
+@import './main/main.scss';
+@import '/node_modules/bootstrap-scss/bootstrap.scss';
+@import '/node_modules/bootstrap-scss/variables';
+@import '/node_modules/bootstrap-scss/mixins';
+$secondary:#A85CF9;
+$white:#FFFFFF;
+$txtShadow:rgba(0,0,0,.01) 0 0 1px;
+$black:#000;
+a{
+    text-decoration: none !important;
+}
+.page-top{
+    float: right !important;
+    cursor: pointer;
+}
