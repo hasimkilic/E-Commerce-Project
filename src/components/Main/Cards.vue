@@ -23,7 +23,7 @@
               <p class="txt4">{{ product.title }}</p>
               <p class="txt5">
                 <span class="underline">{{ product.quantity }} /</span>
-                ₺{{ product.newPrice}}
+                {{ product.newPrice}}
                 <sup class="underline czg">{{ product.oldPrice }}</sup>
               </p>
               <p class="txt2">{{ product.description }}</p>
@@ -72,7 +72,7 @@ export default {
           sales: "%20",
           case: "Taze",
           quantity: "Adet",
-          newPrice: "39.90",
+          newPrice: "₺ 39.90",
           oldPrice: "₺ 49.90",
           description:
             "Organik olarak sattığımız ürünümüz siz tüketicilere sunmak için en iyi koşullarda muhafaza etmekteyiz",
