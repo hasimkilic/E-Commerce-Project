@@ -1,6 +1,6 @@
 # Project Setup
 ```bash 
-  npm install my-project
+  npm install
   npm run dev
 ```
 
