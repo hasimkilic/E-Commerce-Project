@@ -1,8 +1,8 @@
 # Project Setup
-
-- npm install
-
-- npm run dev
+```bash 
+  npm install my-project
+  npm run dev
+```
 
 # Vue 3 + Vite
 
